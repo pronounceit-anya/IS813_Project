@@ -7,7 +7,6 @@ st.write(
 from gcsa.event import Event
 from gcsa.google_calendar import GoogleCalendar
 from gcsa.recurrence import Recurrence, DAILY, SU, SA
-
 from beautiful_date import Jan, Apr
 
 calendar = GoogleCalendar('your_email@gmail.com')
